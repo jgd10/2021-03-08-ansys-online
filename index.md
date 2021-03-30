@@ -9,10 +9,10 @@ country: "uk"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "english"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: ""        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: ""       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "1st March 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "8th April 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9am - 5pm (GMT)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2021-03-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2021-03-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2021-04-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2021-04-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["James Derrick"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Samuel Liedtke"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["james.derrick@ansys.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -30,7 +30,6 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
-
 
 {% comment %}
 Check DC curriculum
@@ -75,7 +74,6 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
 
 <h2 id="general">General Information</h2>
 
